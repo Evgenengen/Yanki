@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header header__bg">
+      <div class="container">
+        <div class="header__top">
+          <button class="header__btn">
+            <img class="header__btn__img" src="images/header-btn.svg" alt="">
+          </button>
+          <button class="menu__button">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list__item"><a class="menu__list__link" href="#">NEW</a></li>
+              <li class="menu__list__item"><a class="menu__list__link" href="catalog.html">КАТАЛОГ</a></li>
+              <li class="menu__list__item"><a class="menu__list__link" href="#">О НАС</a></li>
+            </ul>
+          </nav>
+          <a class="header__logo" href="#">
+            <img class="header__logo__img" src="images/header-logo.svg" alt="Логотип">
+          </a>
+          <ul class="accordion__language__inner">
+            <li class="accordion__language">
+              <a class="accordion__language__link" href="#">RUS</a>
+              <ul class="accordion__language__box">
+                <li class="language__UA">UA</li>
+                <li class="language__EN">EN</li>
+              </ul>
+            </li>
+            <li class="accordion__language">
+              <a class="accordion__language__link accordion__language__link__currency" href="#"> UAN</a>
+              <ul class="accordion__language__box">
+                <li class="language__UA">EUR</li>
+                <li class="language__EN">USD</li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="header__actived">
+            <li class="header__actived__item">
+              <a class="header__actived__link " href="catalog.html">
+              <img class="header__actived__img" src="images/search.svg" alt="">
+                </a></li>
+            <li class="header__actived__item">
+              <a class="header__actived__link popup__link" href="#popup">
+                <img class="header__actived__img "
+                  src="images/login.svg" alt="">
+                </a></li>
+            <li class="header__actived__item">
+              <a class="header__actived__link" href="favorites.html">
+                <img class="header__actived__img" src="images/like.svg" alt="">
+                </a>
+                <div class="like__counter white__counter">
+                  0
+                </div></li>
+            <li class="header__actived__item"><a class="header__actived__link" href="basket.html">
+              <img class="header__actived__img" src="images/basket.svg" alt="">
+                </a>
+                <div class="backet__number__inner white__counter">
+                  0
+                </div></li>
+          </ul>
+        </div>
+
+        <div class="uppersider__menu uppersider__menu-close">
+          <div class="uppersider__menu__inner">
+            <button class="uppersider__menu__close">
+              <img src="images/close-btn.svg" alt="">
+            </button>
+            <div class="uppersider__menu__row">
+              <a class="uppersider__menu__item" href="Payment.html">ОПЛАТА И ДОСТАВКА</a>
+              <a class="uppersider__menu__item" href="rreturn.html">УСЛОВИЯ ВОЗВРАТА</a>
+              <a class="uppersider__menu__item" href="contacts.html">КОНТАКТЫ</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h1 class="header__title">Новая коллекция</h1>
+      <div class="header__item">
+        <a class="header__item__text" href="#">Смотреть Новинки</a>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="categories">
+        <div class="container">
+          <h2 class="categories__title">Категории</h2>
+          <div class="categories__items">
+            <div class="categories__item" style="background-image: url(images/categories-2.jpg);">
+              <p class="categories__item__text">Куртки</p>
+            </div>
+            <div class="categories__item" style="background-image: url(images/categories-2.jpg);">
+              <p class="categories__item__text">Пальто</p>
+            </div>
+            <div class="categories__item" style="background-image: url(images/categories-3.jpg);">
+              <p class="categories__item__text">Шубы</p>
+            </div>
+            <div class="categories__item" style="background-image: url(images/categories-4.jpg);">
+              <p class="categories__item__text">Куртки</p>
+            </div>
+            <div class="categories__item" style="background-image: url(images/categories-1.jpg);">
+              <p class="categories__item__text">Куртки</p>
+            </div>
+            <div class="categories__item" style="background-image: url(images/categories-2.jpg);">
+              <p class="categories__item__text">Пальто</p>
+            </div>
+            <div class="categories__item" style="background-image: url(images/categories-3.jpg);">
+              <p class="categories__item__text">Шубы</p>
+            </div>
+            <div class="categories__item" style="background-image: url(images/categories-4.jpg);">
+              <p class="categories__item__text">Куртки</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="subscription">
+        <div class="container">
+          <h2 class="subscription__title">Узнайте первым о новинках</h2>
+          <form class="form">
+            <input class="form__input" type="text" placeholder="Ваш e-mail*">
+            <button type="submit" class="form__btn">ПОДПИСАТЬСЯ</button>
+            <div class="subscription__text">
+              Нажимая на кнопку «Подписаться», я соглашаюсь на обработку моих персональных данных и ознакомлен(а) с
+              условиями конфиденциальности.
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__company">
+            <h4 class="footer__company__title">КОМПАНИЯ</h4>
+            <a class="footer__company__link" href="#">О нас</a>
+            <a class="footer__company__link" href="contacts.html">Контакты</a>
+          </div>
+          <div class="footer__userful">
+            <h4 class="footer__userful__title">ПОЛЕЗНОЕ</h4>
+            <a class="footer__userful__link" href="Payment.html">Оплата и доставка</a>
+            <a class="footer__userful__link" href="rreturn.html">Условия возврата</a>
+            <a class="footer__userful__link" href="#">Бонусная система</a>
+          </div>
+          <div class="footer__buyer">
+            <h4 class="footer__buyer__title">ПОКУПАТЕЛЮ</h4>
+            <a class="footer__buyer__link" href="favorites.html">Избранное</a>
+            <a class="footer__buyer__link" href="#">Публичная оферта</a>
+            <a class="footer__buyer__link" href="#">Политика конфиденциальности</a>
+          </div>
+          <div class="footer__contacts">
+            <h4 class="footer__contacts__title">КОНТАКТЫ</h4>
+            <div class="footer__contacts__social">
+              <a class="footer__contacts__social-link" href="#"><img class="footer__contacts__img"
+                  src="images/instagram.svg" alt=""></a>
+              <a class="footer__contacts__social-link" href="#"><img class="footer__contacts__img"
+                  src="images/telegram.svg" alt=""></a>
+            </div>
+            <a class="footer__contacts__tel" href="tel:380730963644">+38(073) 096 36 44</a>
+            <a class="footer__contacts__link" href="mailto:info@yanki.com">info@yanki.com</a>
+          </div>
+        </div>
+        <div class="footer__copy">
+          <a class="footer__copy__link" href="#">©️ 2021 Yanki. All rights reserved</a>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+ 
+
+  <div id="popup" class="popup hidden">
+    <div class="popup__body">
+      <div class="popup__content">
+        <a class="close popup__close" href="">X</a>
+        <div class="popup__title">Авторизация</div>
+        <form class="form">
+          <label>
+            <input class="label__input" type="email" placeholder="Ваш e-mail*">
+          </label>
+          <label  class="password__label">
+            <input class="label__input password__input " type="password" placeholder="Ваш пароль*">
+            <div class="password__btn ">
+              <img src="images/password-btn.svg" alt="">
+            </div>
+          </label>
+          <div class="popup__password">
+            <a class="password__forgot popup__link" href="#popup__2">Забыли пароль?</a>
+            <a class="password__account popup__link" href="#popup__5">Нет аккаунта?</a>
+          </div>
+          <button type="submit" class="auth__form__btn">Войти</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div id="popup__2" class="popup hidden">
+    <div class="popup__body">
+      <div class="popup__content">
+        <a class="close popup__close" href="#">X</a>
+        <div class="popup__title">Забыли пароль?</div>
+        <div class="popup__text">Введите свою почту и мы отправим вам код для сброса пароля и
+          восстановления аккаунта:</div>
+        <form class="form">
+          <label>
+            <input class="label__input" type="email" placeholder="Ваш e-mail*">
+          </label>
+          <button type="submit" class="auth__form__btn">
+            <a class="popup__link" href="#popup__3">Войти</a> </button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div id="popup__3" class="popup hidden">
+    <div class="popup__body">
+      <div class="popup__content">
+        <a class="close popup__close" href="">X</a>
+        <div class="popup__title">Забыли пароль?</div>
+        <div class="popup__text">Код из сообщения:</div>
+        <form class="form">
+          <label>
+            <input class="label__input" type="number" placeholder="Код*">
+          </label>
+          <label  class="password__label">
+            <input class="label__input password__input " type="password" placeholder="Ваш пароль*">
+            <div class="password__btn ">
+              <img src="images/password-btn.svg" alt="">
+            </div>
+          </label>
+         
+          <button type="submit" class="auth__form__btn">
+            <a class="popup__link" href="#popup__4"> УСТАНОВИТЬ ПАРОЛЬ</a>
+           </button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div id="popup__4" class="popup hidden">
+    <div class="popup__body">
+      <div class="popup__content">
+        <a class="close popup__close close__All" href="#">X</a>
+        <div class="popup__title">Вы успешно сменили пароль!</div>
+       
+      </div>
+    </div>
+  </div>
+  <div id="popup__5" class="popup hidden">
+    <div class="popup__body">
+      <div class="popup__content">
+        <a class="close popup__close" href="">X</a>
+        <div class="popup__title">Регистрация</div>
+        <form class="form">
+          <label>
+            <input class="label__input" type="email" placeholder="Ваш e-mail*">
+          </label>
+          <label  class="password__label">
+            <input class="label__input password__input " type="password" placeholder="Ваш пароль*">
+            <div class="password__btn ">
+              <img src="images/password-btn.svg" alt="">
+            </div>
+          </label>
+          <button type="submit" class="auth__form__btn"><a class="popup__link" href="#popup__6">Продолжить</a> </button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div id="popup__6" class="popup hidden">
+    <div class="popup__body">
+      <div class="popup__content">
+        <a class="close popup__close" href="#">X</a>
+        <div class="popup__title">Регистрация - шаг 2</div>
+        <div class="popup__text">Мы отправили вам на почту код для подтверждения регистации. Введите его, пожалуйста</div>
+        <form class="form">
+          <label>
+            <input class="label__input" type="number" placeholder="Код с e-mail*">
+          </label>
+          <button type="submit" class="auth__form__btn">
+            <a class="popup__link" href="#popup__7">ЗАРЕГИСТРИРОВАТЬСЯ</a> </button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div id="popup__7" class="popup hidden">
+    <div class="popup__body">
+      <div class="popup__content">
+        <a class="close popup__close close__All" href="#">X</a>
+        <div class="popup__title">Регистрация - успешно!</div>
+        <div class="popup__text">Вы успешно зарегестрировались! Приятных покупок!</div>
+        
+      </div>
+    </div>
+  </div>
+  <script src="./js/modal.js"></script>
+
+  <script src="./js/catalog-list.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="./js/counter.js"></script>
+
+</body>
+
+</html>
